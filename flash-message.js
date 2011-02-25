@@ -23,6 +23,10 @@
  *   jQuery cookie plugin, http://plugins.jquery.com/project/Cookie
  *
  * Be sure to include this javascript file after the above requirements, and before any javascript files that use flash messages.
+ * 
+ * In your main javascript file, include the plugin like so:
+ *
+ *  $("#messages").flashMessage();
  *
  * By default, the flash message looks for the following div container:
  *
@@ -74,8 +78,5 @@ $(document).ready(function () {
       $.cookie("FlashError", null, { path: '/' });
     }
   }
-
-  // Include flash messaging system
-  $("#messages").flashMessage();
 
 });
