@@ -1,0 +1,22 @@
+#messages {
+  margin-bottom: 10px;
+}
+
+#messages div {
+  padding-left: 20px;
+}
+
+.flash-success, .flash-error {
+  width: 750px;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+  
+.flash-success {
+  background: #95E18E url("flash-success.png") 10px 10px no-repeat;
+}
+
+.flash-error {
+  background: #FFA4A4 url("flash-error.png") 10px 10px no-repeat;
+}
